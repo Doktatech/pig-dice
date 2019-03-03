@@ -4,16 +4,27 @@
     <meta charset="UTF-8">    
     <title>Pig Dice Game</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     
 </head>
 <body>    
     <div class="container">
         <div class=row>
-            <h1>Rewels Pig Dice Game</h1>
-
+            <h1 style="text-align: center;" >Pig Dice Game</h1>
+            <div class="col-md-6">
+                <h1 style="text-align: center;"> Player One</h1>
+                <input type="text" name="scorebox" id="score1">
+            </div> 
             
+            <div class="col-md-6">
+                <h1 style="text-align: center;">Player Two</h1>
+                <input type="text" name="scorebox" id="score2">
+            </div> 
+              
+                      
+                   
         </div>
-            
+        <button  id="roll" type="button" onclick="rollDie()">Roll Die</button>       
 
     </div>
         
