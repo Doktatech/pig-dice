@@ -1,6 +1,15 @@
 #roll {
-    position: absolute;
+    align-self:  center;
     bottom: 20px;
     left: 50%;
-    margin-left: -104.5px; 
+    margin: 5px;
+}
+.dice {
+    width: 32px;          
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    
+    border-radius: 5px;
 }
