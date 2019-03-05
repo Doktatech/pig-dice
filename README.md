@@ -1,8 +1,12 @@
-# {Pig Dice}
-#### {A two player game for rolling a die and accumulating individual scores.The one who scores a preset score of 100 wins}, {04/02/2019 v 1.0.0}
-#### By **{Doktatech}**
+# Pig Dice
+#### A two player game for rolling a die and accumulating individual scores.The one who scores a preset score of 100 wins}, {04/02/2019 v 1.0.0
+#### By **Doktatech**
 ## Description
-    This game allows two users to compete in a dice rolling game. Each users roll values are accumulated co-currently with each roll. However, if a user rolls a 1, the score is discarded and he/she is forced to pass the turn to the other player. The second player consequently rolls the die till he/she scores a 1 or decides to hold his/her values. When a player decides to hold, they pass their turn to the other player with their cummulative score being added together unless they had rolled a 1.  
+    This game allows two users to compete in a dice rolling game. Each users roll values are accumulated co-currently with each 
+    roll. However, if a user rolls a 1, the score is discarded and he/she is forced to pass the turn to the other player. The 
+    second player consequently rolls the die till he/she scores a 1 or decides to hold his/her values. When a player decides to 
+    hold, they pass their turn to the other player with their cummulative score being added together unless they had rolled a 1.
+     
 
 ## Setup/Installation Requirements
 * HTML 5 supportive browsers
