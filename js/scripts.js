@@ -15,10 +15,11 @@ $(document).ready(function() {
             
         }else{
             remark.innerHTML = 'You rolled a ' + rollValue+ '.'+' Please hand over';
-            remark2.innerHTML ='You total score is ' + totalScore
+            //document.getElementById("roll").disabled = true;
         }
         if (totalScore>=100){
-            remark.innerHTML=('Hurray!!!!You WON the Game');
+            remark.innerHTML=('Hurray!!!!You WON the Game.Refresh to Start');
+            document.getElementById("roll").disabled = true;
         }
               
     $("#hold").click(function(){
